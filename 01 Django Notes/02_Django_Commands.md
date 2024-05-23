@@ -29,6 +29,7 @@ Successfully installed asgiref-3.7.2 django-5.0.3 sqlparse-0.4.4 typing-extensio
 (my_venv) M:\DjangoProjects01>cd firstproject
 
 (my_venv) M:\DjangoProjects01\firstproject>python manage.py runserver
+(my_venv) M:\DjangoProjects01\firstproject>python manage.py runserver 80001
 Watching for file changes with StatReloader
 Performing system checks...
 
