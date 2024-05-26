@@ -108,30 +108,55 @@ PS M:\DjangoProjects01\firstproject>
 python manage.py startapp ApplicationName
 ```
 
-### Steps To Create the Application
+---
 
-1. Start Project
-2. Start Application
-3. Add this application to the project in settings. py file
-4. Define view function inside views. py
-5. Define url pattern for our view function inside urls.py
-6. Runserver
-7. Send request
+---
 
-####
+### Files Description.
 
-```
-http://127.0.0.1:8000/hello
-```
+1. **init**.py:
+   It is a blank python script.Because of this special file name, Django treated this folder as
+   python package.
+   Note: If any folder contains **init**.py file then only that folder is treated as Python
+   package.But this rule is applicable until Python 3.3 Version.
 
-####
+2. settings.py:
+   In this file we have to specify all our project settings and and configurations like
+   installed applications, middileware configurations, database configurations etc
 
-```
+3. urls.py:
 
-```
+- Here we have to store all our url-patterns of our project.
+- For every view (web page), we have to define separate url-pattern. End user can use
 
-####
+4. url-patterns to access our webpages.
+   wsgi.py:
 
-```
+- wsgi  Web Server Gateway Interface.
+- We can use this file while deploying our application in production on online server.
 
-```
+5. manage.py:
+
+- The most commonly used python script is manage.py
+- It is a command line utility to interact with Django project in various ways like to run
+  development server, run tests, create migrations etc.
+
+---
+
+---
+
+#### Role of Web Server:
+
+- Web Server provides environment to run our web applications.
+- Web Server is responsible to receive the request and forward request to the
+  corresponding web component based on url-pattern and to provide response to the
+  end user.
+- Django framework is responsible to provide development server. Even Django
+  framework provides one inbuilt database sqlite. Special Thanks to Django.
+  Note: Once we started Server a special database related file will be generated in our
+  project folder structure.
+  **db.sqlite3**
+
+---
+
+

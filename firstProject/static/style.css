@@ -1,0 +1,11 @@
+/** @format */
+
+body {
+  background-color: rgb(141, 29, 29);
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  font: 2em;
+}
