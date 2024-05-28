@@ -100,15 +100,6 @@ http://localhost:8000/
 python manage.py runserver 8888
 ```
 
-#### To Create The Application
-
-PS M:\DjangoProjects01\firstproject>
-
-```
-python manage.py startapp ApplicationName
-```
-
----
 
 ---
 

@@ -1,4 +1,17 @@
 <!-- @format -->
+
+# Applications
+
+#### To Create The Application
+
+PS M:\DjangoProjects01\firstproject>
+
+```
+python manage.py startapp ApplicationName
+```
+
+---
+
 ### Steps To Create the Application
 
 1. Start Project
@@ -10,6 +23,12 @@
 7. Send request
 
 ####
+
+---
+
+Notes : install django extension for suggestion. include emmet language
+
+---
 
 ```
 http://127.0.0.1:8000/hello
@@ -27,15 +46,9 @@ http://127.0.0.1:8000/hello
 
 ```
 
-
-
-
-----
-
+---
 
 #### Notes
 
 1. Python related business code -- > View.py
 2. HTML related Presentation Logic--> Temp1ate
-
-

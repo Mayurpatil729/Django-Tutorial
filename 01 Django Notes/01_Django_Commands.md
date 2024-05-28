@@ -26,6 +26,10 @@ Django is a full-featured web framework that follows the Model-View-Controller (
 
 To get started with Django, you'll need to install it on your computer. You can do this by running the following command in your terminal, after setting up a virtual environment:
 
+### Virtual Environment :
+
+A virtual environment is created on top of an existing Python installation, known as the virtual environment's “base” Python, and may optionally be isolated from the packages in the base environment, so only those explicitly installed in the virtual environment are available.
+
 ### Steps:
 
 1. Make sure Python is already installed in our system
